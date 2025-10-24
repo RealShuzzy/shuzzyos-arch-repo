@@ -8,3 +8,7 @@ repo-add shuzzyos-arch-repo.db.tar.gz *.pkg.tar.zst
 rm shuzzyos-arch-repo.{db,files}
 mv shuzzyos-arch-repo.db.tar.gz shuzzyos-arch-repo.db
 mv shuzzyos-arch-repo.files.tar.gz shuzzyos-arch-repo.files
+
+git add .
+git commit -m "automatically added new packages"
+git push origin main
