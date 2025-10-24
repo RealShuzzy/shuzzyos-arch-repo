@@ -12,3 +12,5 @@ mv shuzzyos-arch-repo.files.tar.gz shuzzyos-arch-repo.files
 git add .
 git commit -m "automatically added new packages"
 git push origin main
+
+echo SHUZZYOS ARCH REPO UPDATED SUCESSFULLY
