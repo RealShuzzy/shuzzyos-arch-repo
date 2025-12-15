@@ -1,6 +1,6 @@
 # Arch Repository for ShuzzyOS
 
-## Add Repo
+## Add Repository
 - Add this to the bottom of your `/etc/pacman.conf`:
 ```
 [shuzzyos-arch-repo]
@@ -11,3 +11,11 @@ Server = https://raw.githubusercontent.com/RealShuzzy/$repo/main/$arch
 
 ## Search for Packages
 - Now you can run `sudo pacman -Ss shuzzyos` to see all packages
+
+## Packages
+
+- Wlogout `wlogout-shuzzyos`
+- Waybar `waybar-shuzzyos`
+- Swaylock `swaylock-shuzzyos`
+- Calamares `calamares-shuzzyos`
+- Hyprpolkitagent `hyprpolkitagent-shuzzyos`
